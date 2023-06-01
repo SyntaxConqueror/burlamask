@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  column-gap: 2rem;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  border-radius: .5rem;
+}
+.form__item {
+  height: 15rem;
+  aspect-ratio: 9 / 10;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.form_item__title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_item__title>h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

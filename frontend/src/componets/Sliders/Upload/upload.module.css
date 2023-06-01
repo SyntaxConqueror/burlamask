@@ -1,0 +1,6 @@
+.upload {
+  width: 100%;
+}
+.upload__slide {
+  width: min-content !important;
+}

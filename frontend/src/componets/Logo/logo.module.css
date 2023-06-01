@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+.logo__image {
+  height: 2rem;
+  aspect-ratio: 1;
+}
+.logo__text {
+  font-size: 1.5rem;
+}

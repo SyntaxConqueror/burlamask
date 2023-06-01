@@ -1,0 +1,25 @@
+.form_item > img {
+    object-fit: contain;
+    width: 100%;
+}
+.form_item__upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    row-gap: 1rem;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    flex: 1
+}
+.form_item__icon {
+    height: 2rem;
+
+    aspect-ratio: 1;
+
+}
+.form_item__input {
+    display: none;  
+}
+  

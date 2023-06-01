@@ -1,0 +1,17 @@
+.search {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+.search__input {
+  border: none;
+  outline: none;
+  padding: 0 .5rem;
+  font-size: 1rem;
+}
+.search__icon {
+  width: 1.5rem;
+  aspect-ratio: 1;
+}

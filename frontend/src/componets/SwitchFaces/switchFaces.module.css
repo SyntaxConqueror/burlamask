@@ -1,0 +1,37 @@
+.switchBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer{
+    align-self: center;
+}
+
+.switchBtn::before,
+.switchBtn::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background-color: black;
+}
+
+.switchBtn::after{
+    left: 70%;
+}
+.switchBtn::before{
+    right: 70%;
+}
+.switchBtn {
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.switchBtn:hover {
+    background-color: #b7b7b7;
+}

@@ -1,0 +1,8 @@
+.result {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.result__slide {
+    width: min-content !important;
+}
+  
