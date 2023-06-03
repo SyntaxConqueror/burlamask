@@ -10,7 +10,7 @@ export class ImagesController {
 
   @MessagePattern({cmd: "crop-face"})
   async cropFace(data: {file: FileDto, bw, bh, wk, hk}){
-    return await this.imagesService.cropImageFaceToBuffer(data.file, data.bw, data.bh, data.wk, data.hk);
+    return this.imagesService.cropImageFaceToBuffer(data.file, data.bw, data.bh, data.wk, data.hk);
   }
 
   @MessagePattern({cmd:"make-oval"})
