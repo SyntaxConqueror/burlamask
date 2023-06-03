@@ -58,7 +58,6 @@ export class ImagesService {
     } catch (error){
       console.log("makeOval");
     }
-    
   }
 
   async returnResBuffer(background: Buffer, ovalFace: Buffer, backgroundFace: FileDto){
